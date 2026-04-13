@@ -21,6 +21,7 @@ INSERT → menambah data
 INSERT INTO customers (name, city) VALUES ('Budi', 'Jayapura');
 SELECT → mengambil data
 SELECT * FROM customers;
+SELECT * FROM customers LIMIT 10 OFFSET 4;  //berfunsi untuk mengabil sebagian data dari customer dengan limit 10 data dimalai dari id 4
 UPDATE → mengubah data
 UPDATE customers SET city='Wamena' WHERE id=1;
 DELETE → menghapus data
